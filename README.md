@@ -9,6 +9,7 @@ This repository has the code used to perform Deep Learning Video Colorization (D
 
 To guide the denoising process of the diffusion model, a pre-trained visual transformer denoted Visual Attention Conditioning (VAC) is used, where the grayscale frame $R$ is transformed into latent space, denoted $\mathcal{V}{\text{features}}$, to serve as a reference for the DMLC (Diffusion Model Latent Colorization). After performing the denoising, $\mathcal{L}{\text{at}c}$, the result is a colorized version denoted $S{c}$ of the input frame $R$.
 
+The paper is available for download from the following link: [Video Colorization Based on a Diffusion Model Implementation](https://link.springer.com/chapter/10.1007/978-3-031-66329-1_10)
 
 ## Archicteure
 The implementation of the project is presented below, where the pre-trained coders and the data flow are described:
